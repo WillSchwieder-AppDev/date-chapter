@@ -8,3 +8,12 @@
 # 
 # if today is not Monday.
 
+require 'date'
+
+today = Date.today
+
+if today.wday == 1 
+  p "Is today Monday? true"
+else
+  p "Is today Monday? false"
+end
